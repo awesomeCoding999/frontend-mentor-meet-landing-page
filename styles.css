@@ -5,3 +5,188 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --grey: #87879d;
+  --dark-blue: #28283d;
+  --purple: #855fb1;
+  --lighter-purple: #d9b8ff;
+  --light-purple: #b18bdd;
+  --teal: #4d96a9;
+  --baby-blue: #71c0d4;
+  --light-blue: #8fe3f9;
+  --white: #fff;
+  --light-grey: #fafafa;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.company-logo {
+  display: block;
+  margin: 3rem auto 3.375rem;
+}
+
+.tablet-hero-img,
+.desktop-hero-img {
+  display: none;
+}
+
+.hero-txt-btn-container {
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 44px;
+  color: var(--dark-blue);
+  margin: 3rem 2.813rem 1.5rem;
+}
+
+.hero-description {
+  color: var(--grey);
+  line-height: 26px;
+  margin: 0 1.5rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 4rem;
+}
+
+.btn {
+  text-align: center;
+  border: none;
+  border-radius: 29px;
+  color: var(--white);
+  padding: 1rem 1.5rem;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: var(--teal);
+  width: 193px;
+}
+
+.download-btn:hover {
+  background-color: var(--baby-blue);
+}
+
+.btn-version-no {
+  color: var(--light-blue);
+}
+
+.what-is-it-link {
+  width: 139px;
+  text-decoration: none;
+  background-color: var(--purple);
+  margin-top: 1rem;
+}
+
+.what-is-it-link:hover {
+  background-color: var(--light-purple);
+}
+
+.circle-line {
+  display: block;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.feature-section1 {
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.feature-img {
+  border-radius: 8px;
+  width: 151px;
+  height: 143px;
+  margin-bottom: 1.5rem;
+}
+
+.built-txt {
+  margin: 3rem 0 1.5rem;
+  text-transform: uppercase;
+  color: var(--teal);
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 26px;
+  letter-spacing: 4px;
+}
+
+.subtitle,
+.feature-description {
+  width: 327px;
+}
+
+.subtitle {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 36px;
+  margin: auto;
+}
+
+.feature-description {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  margin: 2rem auto 4rem;
+}
+
+.circle-line-2 {
+  margin-bottom: -1.875rem;
+}
+
+footer {
+  background: url("./assets/mobile/image-footer.jpg") no-repeat var(--teal);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: var(--white);
+  text-align: center;
+  width: 100%;
+}
+
+.footer-subtitle {
+  padding: 4rem 0 1.5rem;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 36px;
+}
+
+.footer-description {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 26px;
+  color: var(--light-grey);
+  padding: 0 1.5rem 2rem;
+}
+
+.purple-download-btn {
+  background-color: var(--purple);
+  margin-bottom: 4.5rem;
+}
+
+.btn-version-no-3 {
+  color: var(--lighter-purple);
+}
+
+.purple-download-btn:hover {
+  background-color: var(--light-purple);
+}

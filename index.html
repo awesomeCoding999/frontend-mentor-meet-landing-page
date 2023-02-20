@@ -17,50 +17,74 @@
 
     <title>Frontend Mentor | Meet landing page</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
-      <img src="./assets/logo.svg" alt="company logo" />
+      <img class="company-logo" src="./assets/logo.svg" alt="company logo" />
     </nav>
     <main>
       <div class="hero-section">
         <img
-          class="mobile-tablet-hero-img"
+          class="mobile-hero-img"
+          src="./assets/mobile/mobile-meeting-people.png"
+          alt="multiple people circles"
+        />
+        <img
+          class="tablet-hero-img"
           src="./assets/tablet/image-hero.png"
           alt="multiple people circles"
         />
+        <img
+          class="desktop-hero-img"
+          src="./assets/desktop/image-hero-left.png"
+          alt="left multiple people circles"
+        />
         <div class="hero-txt-btn-container">
-          <h1 class="title">Group Chat for Everyone</h1>
+          <h1 class="hero-title">Group Chat for Everyone</h1>
           <p class="hero-description">
             Meet makes it easy to connect with others face-to-face virtually and
             collaborate across any device.
           </p>
-          <button class="btn download-btn">
-            Download <span class="btn-version-no">v1.3</span>
-          </button>
-          <a class="btn what-is-it-link" href="#"> What is it?</a>
+          <div class="btn-container">
+            <button class="btn download-btn">
+              Download <span class="btn-version-no">v1.3</span>
+            </button>
+            <a class="btn what-is-it-link" href="#"> What is it?</a>
+          </div>
         </div>
+        <img
+          class="desktop-hero-img"
+          src="./assets/desktop/image-hero-right.png"
+          alt="right multiple people circles"
+        />
       </div>
-      <div class="step-circle">
-        <div class="line"></div>
-        <div class="circle">01</div>
-      </div>
+      <img class="circle-line" src="./assets/mobile/circle-line-1.svg" alt="" />
       <div class="feature-section1">
         <div class="img-container">
           <img
+            class="feature-img"
             src="./assets/desktop/image-woman-in-videocall.jpg"
             alt="woman on video call"
           />
           <img
+            class="feature-img"
             src="./assets/desktop/image-women-videochatting.jpg"
             alt="group of women chatting"
           />
 
           <img
+            class="feature-img"
             src="./assets/desktop/image-men-in-meeting.jpg"
             alt="man in meeting video call"
           />
           <img
+            class="feature-img"
             src="./assets/desktop/image-man-texting.jpg"
             alt="man texting on phone"
           />
@@ -73,11 +97,13 @@
           access, data encryption, and data export.
         </p>
       </div>
-      <div class="step-circle">
-        <div class="line"></div>
-        <div class="circle">02</div>
-      </div>
+      <img
+        class="circle-line circle-line-2"
+        src="./assets/mobile/line-circle-2.svg"
+        alt=""
+      />
     </main>
+
     <footer>
       <h2 class="footer-subtitle">Experience more together</h2>
       <p class="footer-description">
@@ -85,7 +111,7 @@
         group video sessions.
       </p>
       <button class="btn purple-download-btn">
-        Download <span class="btn-version-no">v1.3</span>
+        Download <span class="btn-version-no-3">v1.3</span>
       </button>
     </footer>
   </body>
