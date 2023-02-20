@@ -190,3 +190,70 @@ footer {
 .purple-download-btn:hover {
   background-color: var(--light-purple);
 }
+
+@media (min-width: 40em) {
+  .mobile-hero-img {
+    display: none;
+  }
+
+  .tablet-hero-img {
+    display: block;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    margin: 4.5rem 13.375rem 1.5rem;
+  }
+
+  .hero-description {
+    margin: 0 9.688rem;
+  }
+
+  .btn-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto 5rem;
+    width: 348px;
+  }
+
+  .what-is-it-link {
+    margin-top: 0;
+  }
+
+  .img-container {
+    width: 689px;
+    margin: auto;
+  }
+
+  .built-txt {
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    width: 445px;
+    font-size: 2.5rem;
+  }
+
+  .feature-description {
+    width: 573px;
+    margin-bottom: 5rem;
+  }
+
+  footer {
+    background: url("./assets/tablet/image-footer.jpg") no-repeat var(--teal);
+  }
+
+  .footer-subtitle {
+    font-size: 2.5rem;
+    line-height: 44px;
+    width: 457px;
+    padding: 5.75rem 0 2rem;
+    margin: auto;
+  }
+
+  .footer-description {
+    width: 573px;
+    margin: auto;
+  }
+}
